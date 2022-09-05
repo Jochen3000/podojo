@@ -196,7 +196,6 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     padding: 2vw;
 }
 
-.summary-block-setting-design-carousel .summary-item-list {}
 
 .summary-block-setting-design-carousel .sqs-gallery .summary-metadata-item a, .sqs-gallery .summary-content p {
     color: #000;
@@ -403,4 +402,15 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 
 .wooga-image {
     width: 70%;
+}
+
+@media screen and (max-width: 479px) {
+    .logowall {
+        border: 2px solid red;
+    }
+
+    .image-container {
+        width: 30%;
+        margin: 3vw 2%;
+    }
 }
