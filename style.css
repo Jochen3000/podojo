@@ -424,6 +424,7 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 /* All Fade in Animations */
 .appear {
     opacity: 0;
+    transition-delay: 1s;
 }
 
 .appear.inview {
