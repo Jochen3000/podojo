@@ -1,8 +1,18 @@
-const observer = new IntersectionObserver(entries => {
-    console.log(entries)
-});
+// Animations
+const items = document.querySelectorAll('.appear');
 
-observer.observe(document.querySelectorAll("image-container"));
+const active = function (entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('inview');
+            console.log('in view:', entry);
+        }
+    });
+}
+const io = new IntersectionObserver(active);
+for (let i = 0; i < items.length; i++) {
+    io.observe(items[i]);
+}
 
 
 // < !--Add classes for fade in old script -->
