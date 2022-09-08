@@ -1,3 +1,7 @@
+// Add classes to fade in elements
+const fadeElement = document.querySelector('.fe-block-631356fb13c409dac22024d6');
+console.log('mein element', fadeElement);
+
 // Animations
 const items = document.querySelectorAll('.appear');
 
@@ -5,7 +9,6 @@ const active = function (entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('inview');
-            console.log('in view:', entry);
         }
     });
 }
