@@ -5,7 +5,10 @@ const blockList = [
     document.querySelector('.fe-block-08072733066f34a09717'),
     document.querySelector('.fe-block-631356fb13c409dac22024d6'),
     document.querySelector('.fe-block-631356e8e986304147f9f7ff'),
-    document.querySelector('.fe-block-cbef530f52274b7e6e9f')
+    document.querySelector('.fe-block-63135c2a2a04d0e60a0df2f1'),
+    document.querySelector('.fe-block-63135c2a2a04d0e60a0df2f1'),
+    document.querySelector('.fe-block-63135c3a36c665b182fa0099'),
+    document.querySelector('.fe-block-63135c475c19ad3fb19c387b')
 ]
 
 blockList.forEach((element) => {
