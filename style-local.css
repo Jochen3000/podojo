@@ -50,7 +50,8 @@ ul[data-rte-list] li>*:first-child::before {
 }
 
 /* orange bullets */
-.fe-block-63135808e48c4e7763f929f7 ul[data-rte-list] li>*:first-child::before {
+.fe-block-63135808e48c4e7763f929f7 ul[data-rte-list] li>*:first-child::before,
+.fe-block-631358084351918cc41f8cfe ul[data-rte-list] li>*:first-child::before {
     color: #FA481D;
     content: "\2022";
     font-weight: 800;
