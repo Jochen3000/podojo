@@ -1,6 +1,19 @@
 // Add classes to fade in elements
-const fadeElement = document.querySelector('.fe-block-6885fb0258679b340548');
-fadeElement.classList.add('appear');
+const blockList = [
+    document.querySelector('.fe-block-6885fb0258679b340548'),
+    document.querySelector('.fe-block-6885fb0258679b340548'),
+    document.querySelector('.fe-block-08072733066f34a09717'),
+    document.querySelector('.fe-block-631356fb13c409dac22024d6'),
+    document.querySelector('.fe-block-631356e8e986304147f9f7ff'),
+    document.querySelector('.fe-block-cbef530f52274b7e6e9f')
+]
+
+blockList.forEach((element) => {
+    document.querySelector
+    if (element) {
+        element.classList.add('appear');
+    }
+});
 
 // Animations
 const items = document.querySelectorAll('.appear');
@@ -16,8 +29,6 @@ const io = new IntersectionObserver(active);
 for (let i = 0; i < items.length; i++) {
     io.observe(items[i]);
 }
-
-console.log('mein element', fadeElement);
 
 
 // < !--Add classes for fade in old script -->
