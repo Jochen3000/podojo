@@ -74,6 +74,17 @@ ul[data-rte-list] li>*:first-child::before {
     color: black;
 }
 
+/* SVG Logo */
+.header-title-logo a {
+    width: 127px;
+}
+
+@media screen and (max-width: 767px) {
+    .header-title-logo a img {
+        max-height: 40px;
+    }
+}
+
 /* Header Navi */
 .header a {
     font-size: 1rem;
@@ -126,14 +137,14 @@ ul[data-rte-list] li>*:first-child::before {
     color: rgba(25, 37, 44, 1) !important;
 }
 
-/* Temp black logo always */
+/* Temp black logo always
 .header .header-title-logo img {
     filter: invert(1);
-}
+} */
 
-.header.shrink .header-title-logo img {
+/* .header.shrink .header-title-logo img {
     filter: invert(1);
-}
+} */
 
 /* Burger Menu */
 body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.header--menu-open) .header.shrink .burger-inner .bottom-bun {
