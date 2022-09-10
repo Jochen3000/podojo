@@ -103,7 +103,7 @@ ul[data-rte-list] li>*:first-child::before {
     margin-left: 1em;
 }
 
-.header a:hover {
+.header .header-nav-item a:hover {
     color: #fb481d !important;
 }
 
