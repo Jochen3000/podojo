@@ -15,6 +15,13 @@ h2 {
     height: 0px;
 }
 
+/* 2 columns on ipad */
+@media screen and (max-width: 950px) {
+    .blog-basic-grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
 /* Underline h2 */
 h2:after {
     content: "";
