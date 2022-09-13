@@ -6,6 +6,15 @@ h2 {
     padding-bottom: 1em;
 }
 
+/* Blog overview headelines */
+.blog-basic-grid .blog-title {
+    font-size: clamp(18px, calc(1.125rem + ((1vw - 3.75px) * 0.7512)), 26px);
+}
+
+.blog-basic-grid .blog-article-spacer {
+    height: 0px;
+}
+
 /* Underline h2 */
 h2:after {
     content: "";
