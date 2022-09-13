@@ -15,13 +15,6 @@ h2 {
     height: 0px;
 }
 
-
-@media screen and (min-width: 950px) {
-    .blog-basic-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 /* Underline h2 */
 h2:after {
     content: "";
