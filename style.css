@@ -424,6 +424,65 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     width: 70%;
 }
 
+.optima-img {
+    width: 90%;
+}
+
+.db-img {
+    width: 40%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.here-img {
+    width: 40%;
+}
+
+.basf-img {
+    width: 80%;
+}
+
+.wwf-img {
+    width: 30%;
+}
+
+.zalando-img {
+    width: 80%;
+}
+
+.aspringer-img {
+    width: 100%;
+}
+
+.forto-img {
+    width: 80%;
+}
+
+.mann-img {
+    width: 70%;
+}
+
+.urban-sports {
+    width: 100%;
+}
+
+.ecosia-img {
+    width: 80%;
+}
+
+.idealo-img {
+    width: 80%;
+}
+
+.mysugr-img {
+    width: 90%;
+}
+
+.sn-img {
+    width: 90%;
+}
+
+
 @media screen and (max-width: 479px) {
     .logowall {
         border: 2px solid red;
