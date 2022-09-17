@@ -569,7 +569,6 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 340px;
     padding: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
