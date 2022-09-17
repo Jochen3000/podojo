@@ -595,6 +595,16 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     font-size: 24px;
 }
 
+.trainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.trainer-img {
+    width: 75px;
+}
+
 .trainer-name {
     font-weight: 700;
     text-align: center;
