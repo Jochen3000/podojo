@@ -38,3 +38,13 @@ for (let i = 0; i < items.length; i++) {
 const logoPos = document.querySelectorAll('.header-title-logo a');
 logoPos[0].innerHTML = '<img src="https://jochen3000.github.io/podojo/img/logo-podojo-black.svg" alt="podojo">';
 logoPos[1].innerHTML = '<img src="https://jochen3000.github.io/podojo/img/logo-podojo-black.svg" alt="podojo">';
+
+// Styling Quote Images
+const quoteImage = document.querySelectorAll('.list-item-media');
+
+quoteImage.forEach(item => {
+    item.style.width = "120px";
+});
+
+console.log(quoteImage);
+
