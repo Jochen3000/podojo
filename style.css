@@ -562,3 +562,53 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 .logowall .appear.inview:nth-child(14) {
     transition-delay: 2.8s;
 }
+
+/* Training Component */
+.training-event {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.trainers {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.training-heading {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.trainer-name {
+    font-weight: 700;
+    text-align: center;
+}
+
+.trainer-image {
+    width: 75px;
+}
+
+.price-label {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.price {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
