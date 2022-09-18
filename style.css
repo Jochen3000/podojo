@@ -372,8 +372,6 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 
 .db-img {
     width: 40%;
-    -o-object-fit: cover;
-    object-fit: cover;
 }
 
 .here-img {
@@ -428,16 +426,6 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     width: 90%;
 }
 
-.db-img {
-    width: 40%;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-.here-img {
-    width: 40%;
-}
-
 .basf-img {
     width: 80%;
 }
@@ -483,23 +471,23 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 }
 
 .audi-img {
-    max-width: 56%;
+    width: 66%;
 }
 
 .adjust-img {
-    max-width: 75%;
+    width: 75%;
 }
 
 .daimler-img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .oetker-img {
-    max-width: 75%;
+    width: 75%;
 }
 
 .volkswagen-img {
-    max-width: 35%;
+    width: 35%;
 }
 
 
