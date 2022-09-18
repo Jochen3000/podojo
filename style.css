@@ -482,6 +482,26 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
     width: 90%;
 }
 
+.audi-img {
+    max-width: 66%;
+}
+
+.adjust-img {
+    max-width: 75%;
+}
+
+.daimler-img {
+    max-width: 100%;
+}
+
+.oetker-img {
+    max-width: 75%;
+}
+
+.volkswagen-img {
+    max-width: 35%;
+}
+
 
 @media screen and (max-width: 479px) {
     .logowall {
