@@ -568,7 +568,7 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 }
 
 .logowall .appear.inview:nth-child(15) {
-    transition-delay: 2.8s;
+    transition-delay: 3.0s;
 }
 
 /* Training Component */
