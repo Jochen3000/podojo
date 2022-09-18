@@ -492,10 +492,6 @@ body:not(.header--menu-open) .header.shrink .burger-inner .top-bun, body:not(.he
 
 
 @media screen and (max-width: 479px) {
-    .logowall {
-        border: 2px solid red;
-    }
-
     .image-container {
         width: 30%;
         margin: 3vw 2%;
