@@ -657,3 +657,10 @@ img.trainer-img {
     background-size: 25px 25px;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 479px) {
+    .takeaways-container {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
