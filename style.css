@@ -665,3 +665,25 @@ img.trainer-img {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* language switch */
+.language-switch {
+    color:#A7ABC5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.language-switch a {
+    font-weight: 300;
+}
+
+.language-switch-mobile a {
+    text-decoration: underline;
+    border-bottom: 2px solid red;
+}
+
+.header-nav {
+    padding-top: 12px;
+}
