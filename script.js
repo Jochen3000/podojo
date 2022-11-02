@@ -46,4 +46,62 @@ quoteImage.forEach(item => {
     item.style.width = "120px";
 });
 
+//
+// Localise navigation
+//
+
+// get navigation items mobile and desktop
+const menuItemMobile = document.querySelectorAll('.header-menu-nav-item');
+const menuItemMobileLink = document.querySelectorAll('.header-menu-nav-item a');
+const menuItemDesktop = document.querySelectorAll('.header-nav-item');
+const menuItemDesktopLink = document.querySelectorAll('.header-nav-item a');
+const urlPattern = "-de";
+
+// get current url path
+const pathName = window.location.pathname;
+
+// remove all navi items that are not path language
+if(pathName.includes(urlPattern)){
+    menuItemMobile.forEach((item, index) => {
+        if(!menuItemMobileLink[index].href.includes(urlPattern)){
+            item.remove();
+            menuItemDesktop[index].remove();
+        } 
+     })
+} else {
+   menuItemMobile.forEach((item, index) => {
+        if(menuItemMobileLink[index].href.includes(urlPattern)){
+            item.remove();
+            menuItemDesktop[index].remove();
+        } 
+     }) 
+}
+
+// show a language switcher
+// const navWrapper = document.querySelector('.header-title-nav-wrapper');
+// const navWrapperMobile = document.querySelector('.header-menu-nav-folder-content');
+
+// navWrapper.insertAdjacentHTML('beforebegin', `<div class="language-switch">
+    // <a href="/home-de" class="de-link">DE</a>
+    // <a href="home" class="en-link">/EN</a></div>`);
+// navWrapperMobile.insertAdjacentHTML('beforeend', `<div class="language-switch-mobile">
+//    <a href="/home-de" class="de-link">DE</a>/
+//    <a href="home" class="en-link">EN</a>
+//    </div>`);
+
+// add class to active language
+// const languageSwitchDE = document.querySelectorAll('.de-link');
+// const languageSwitchEN = document.querySelectorAll('.en-link');
+
+// if(pathName.includes(urlPattern)){
+//    languageSwitchDE[0].classList.add('active-lang');
+//    languageSwitchDE[1].classList.add('active-lang');
+// } 
+
+
+
+
+
+
+
 
