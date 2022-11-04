@@ -55,26 +55,26 @@ const menuItemMobile = document.querySelectorAll('.header-menu-nav-item');
 const menuItemMobileLink = document.querySelectorAll('.header-menu-nav-item a');
 const menuItemDesktop = document.querySelectorAll('.header-nav-item');
 const menuItemDesktopLink = document.querySelectorAll('.header-nav-item a');
-const urlPattern = "-de";
+const urlPattern = "--de";
 
 // get current url path
 const pathName = window.location.pathname;
 
 // remove all navi items that are not path language
-if(pathName.includes(urlPattern)){
+if (pathName.includes(urlPattern)) {
     menuItemMobile.forEach((item, index) => {
-        if(!menuItemMobileLink[index].href.includes(urlPattern)){
+        if (!menuItemMobileLink[index].href.includes(urlPattern)) {
             item.remove();
             menuItemDesktop[index].remove();
-        } 
-     })
+        }
+    })
 } else {
-   menuItemMobile.forEach((item, index) => {
-        if(menuItemMobileLink[index].href.includes(urlPattern)){
+    menuItemMobile.forEach((item, index) => {
+        if (menuItemMobileLink[index].href.includes(urlPattern)) {
             item.remove();
             menuItemDesktop[index].remove();
-        } 
-     }) 
+        }
+    })
 }
 
 // show a language switcher
